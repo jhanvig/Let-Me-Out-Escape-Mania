@@ -113,27 +113,31 @@ root.mainloop()
 
 #level 2
 
-script2=('''The doors are thrown open and you step out of the room into a unfamiliar surroundings.
-Whitewashed walls entirely devoid of any sign of life and activity.
-You take a deep breath and run down the hall not knowing wether the way to escape.
-For a few minutes all you see are just blank white painted halls as you're running
-Your heart thumps loudly against your chest making it difficult to breath and to think.
-Your legs give out not being able to take you any further so you stop after a while to find yourself
-infront of a peculiar door left ajar on your right.
-You slip in quietly through the cracked open door to find yourself in a strangely lit
-room containing monitors. On closer inspection you see that the monitors are relaying
-the footage of the security cameras within in this place.
-
-You look around the desks and monitors untill a large pinboard catches your eye.You walk toards
-it to get a closer look. On looking closely you find that the largest poster seemed to
-be that of a map of this building.You trace the lines on the map to find the words 'you are here'
-                                admin block
-After discerning your whereabouts move to find an exit on the map.You find it within seconds but a
-strange looking note is seen on right stuck next to the bold lettering of the word "EXIT" on the map.You squint at it to see:"
-''')
-note="So you think you can escape?Its laughable,but I would like to see you try anyways.You might not be able to escape being so naive but let me give you a 'helpful nudge'"
-text=Label(root, text=note,font=("calibri"),bg="black",fg="white",width=40,height=10,wraplength=100)
-text.pack() 
+def level2():
+    script2=('''The doors are thrown open and you step out of the room into a unfamiliar surroundings.
+                Whitewashed walls entirely devoid of any sign of life and activity.
+                You take a deep breath and run down the hall not knowing wether the way to escape.
+                For a few minutes all you see are just blank white painted halls as you're running
+                Your heart thumps loudly against your chest making it difficult to breath and to think.
+                Your legs give out not being able to take you any further so you stop after a while to find yourself
+                infront of a peculiar door left ajar on your right.
+                You slip in quietly through the cracked open door to find yourself in a strangely lit
+                room containing monitors. On closer inspection you see that the monitors are relaying
+                the footage of the security cameras within in this place.
+                You look around the desks and monitors untill a large pinboard catches your eye.You walk toards
+                it to get a closer look. On looking closely you find that the largest poster seemed to
+                be that of a map of this building.You trace the lines on the map to find the words 'you are here'
+                                               ' admin block '
+                After discerning your whereabouts move to find an exit on the map.You find it within seconds but a
+                strange looking note is seen on right stuck next to the bold lettering of the word "EXIT" on the map.You squint at it to see:"
+    ''')
+    print(script2)
+    root=Tk()
+    root.title("NOTE")
+    note=f"So you think you can escape ? Its laughable,but I would like to see you try anyways.You might not be able to escape being so naive but let me give you a 'helpful nudge'"
+    text=Label(root,text=note,font=("Ariel"),bg="black",fg="red",width=40,height=20,wraplength=250)
+    text.pack() 
+level2()
 
 #room has map.player finds out where they are and the exit on map has a post it note near it.
 #note has clue ig
