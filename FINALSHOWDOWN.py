@@ -32,7 +32,7 @@ def level1():
     level_1= input("Click enter to proceed....")
     if level_1 == "":
       
-      script1=('''Darkness surrounds.As your senses slowly come to you,
+      script1=('''Darkness surrounds. As your senses slowly come to you,
       consciousness awakens. You blink as light rushes into your eye,
       and jolt up with adrenaline.You have no memory of where you came from or who you were with.You take in your surroundings.
       Pale white walls surround you,and yet, amidst this plainess,something stands out to you.
@@ -43,7 +43,7 @@ def level1():
     print(script1)
       
 #Instructions for level1
-    Instructions for level 1:
+    print('''Instructions for level 1:
 
     The code to be entered in the rotary dial telephone in order to escape this room is a four digit code
     consisting of the numbers 1-8.
@@ -118,7 +118,7 @@ def level1():
 level1()
 
 #LEVEL2
-script2=(''The doors are thrown open and you step out of the room into a unfamiliar surroundings.
+script2=('''The doors are thrown open and you step out of the room into a unfamiliar surroundings.
                 Whitewashed walls entirely devoid of any sign of life and activity.
                 You take a deep breath and run down the hall not knowing wether the way to escape.
                 For a few minutes all you see are just blank white painted halls as you're running
