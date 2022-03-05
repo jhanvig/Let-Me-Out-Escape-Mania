@@ -27,11 +27,22 @@ writobj.writerow([name,age,country])
 file1.close()
 
 #SCRIPT
+
 def level1():
     level_1= input("Click enter to proceed....")
     if level_1 == "":
-        #Instructions for level1
-        print('''
+      
+      script1=('''Darkness surrounds.As your senses slowly come to you,
+      consciousness awakens. You blink as light rushes into your eye,
+      and jolt up with adrenaline.You have no memory of where you came from or who you were with.You take in your surroundings.
+      Pale white walls surround you,and yet, amidst this plainess,something stands out to you.
+      A small glint of metal shone bright against the bareness of the wall.
+      You walk closer to inspect it, and find a rotary dial telephone engraved into the wall.
+      A note placed next to it has a riddle scribbled onto it in order to open the secret door.''')
+      
+    print(script1)
+      
+#Instructions for level1
     Instructions for level 1:
 
     The code to be entered in the rotary dial telephone in order to escape this room is a four digit code
@@ -107,6 +118,27 @@ def level1():
 level1()
 
 #LEVEL2
+script2=(''The doors are thrown open and you step out of the room into a unfamiliar surroundings.
+                Whitewashed walls entirely devoid of any sign of life and activity.
+                You take a deep breath and run down the hall not knowing wether the way to escape.
+                For a few minutes all you see are just blank white painted halls as you're running
+                Your heart thumps loudly against your chest making it difficult to breath and to think.
+                Your legs give out not being able to take you any further so you stop after a while to find yourself
+                infront of a peculiar door left ajar on your right.
+                You slip in quietly through the cracked open door to find yourself in a strangely lit
+                room containing monitors. On closer inspection you see that the monitors are relaying
+                the footage of the security cameras within in this place.
+                You look around the desks and monitors untill a large pinboard catches your eye.You walk toards
+                it to get a closer look. On looking closely you find that the largest poster seemed to
+                be that of a map of this building.You trace the lines on the map to find the words 'you are here'
+                                               ' admin block '
+                After discerning your whereabouts move to find an exit on the map.You find it within seconds but a
+                strange looking note is seen on right stuck next to the bold lettering of the word "EXIT" on the map.
+                You squint at it to see: ekwaup uo'rey ni a tansfay hits flieis gte bckot reliaty''')
+print(script2)
+#instructions for level 2
+print("Find the word amongst the scrambled letters to get the sentence password required")
+
 def level2():
     root = Tk()
     root.title('Riddle')
@@ -181,6 +213,9 @@ level2()
 #LEVEL3
 
 #Script
+script3=''' You bore these words into your brain as you move out of the room towards the exit using the directions from the map as a guide.
+            You mutter these words to yourself so as to not forget and eventually you reach the exit passage way.'''
+print(script3)
 def level3():
     root=Tk()
     root.title("NOTE")
