@@ -225,6 +225,8 @@ print(script3)
 print('''The words guessed from the previous word puzzle are a part of the passcode to your freedom from the second level.
 Some extra words have been added to complete the sentence:''')
 enter = input("Click Enter to continue:\n")
+if enter == "":
+    print()
     
 def level3():
     root=Tk()
