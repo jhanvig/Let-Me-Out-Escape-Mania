@@ -9,9 +9,7 @@ print("LET ME OUT: ESCAPE MANIA")
 
 #csv file to store player data
 name = input('''WELCOME, TO LET ME OUT: ESCAPE MANIA!!!
-
 Please enter your credentials in order to save your stats and to compete with others from your country!
-
 Player Name:''')
 
 age = input("Age:")
@@ -43,10 +41,8 @@ print(script1)
       
 #Instructions for level1
 print('''Instructions for level 1:
-
 The code to be entered in the rotary dial telephone in order to escape this room is a four digit code
 consisting of the numbers 1-8.
-
 The code must be written without any spaces (i.e: xyaz). You shall be provided with four chances to input the code correctly,
 or the level shall restart. Good luck!!\n''')
         
