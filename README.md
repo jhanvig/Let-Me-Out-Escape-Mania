@@ -24,6 +24,12 @@ A multi-level Python escape room game built with Tkinter. Test your logic and wi
 - Python 3.x
 - tkinter (usually comes with Python)
 - No installation required for external libraries
+  
+## 🗂️ Project Structure
+escape-mania/
+├── escape_mania.py         # Main game script
+├── statistics.csv          # Auto-generated data file for player stats
+└── README.md               # You're here!
 
 ### To Run:
 ```bash
